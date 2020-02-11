@@ -1,0 +1,1 @@
+docker run -d -v nextcloud:/home/jinhuawu/nextcloud -v apps:/home/jinhuawu/nextcloud/custom_apps  -v config:/home/jinhuawu/nextcloud/config -v data:/home/jinhuawu/nextcloud/data  -v theme:/home/jinhuawu/nextcloud/themes nextcloud -p 8080:80
